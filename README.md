@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # blab_chat
 
 A new Flutter project.
@@ -15,3 +16,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# BlabChat-flutter-chat-app
+>>>>>>> 4b12c1fa17d65557214e8c02f5cf29d2303bfee6
