@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "457868997288",
+    "project_id": "blabchat",
+    "storage_bucket": "blabchat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:457868997288:android:645dd127fb6d4e1e05089d",
+        "android_client_info": {
+          "package_name": "com.example.blab_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDYmZHrRnTZHkJ9MenZeP7esz9eIVBteHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
