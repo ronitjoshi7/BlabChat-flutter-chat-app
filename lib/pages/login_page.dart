@@ -44,7 +44,13 @@ class _LoginPageState extends State<LoginPage> {
 
       // Navigate to chat screen, removing all previous routes (no back to splash/login)
       Navigator.of(context).pushAndRemoveUntil(
-        MaterialPageRoute(builder: (_) => const ChatScreen()),
+        MaterialPageRoute(
+          builder: (_) => const ChatScreenWrapper(
+            chatId: 'default_chat_id',
+            otherUserId: 'default_other_user_id',
+            otherUserName: 'Default User',
+          ),
+        ),
         (route) => false,
       );
     } on FirebaseAuthException catch (e) {
